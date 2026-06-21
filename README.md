@@ -47,7 +47,7 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
  
 - **Large-scale API data retrieval:** Batch-pulling loop 169,301 firms' public notices from the PRH API (29.2 hours, automated retry and checkpoint logic).
 - **Cross-database matching:** Linking PRH company registration data to Vero corporate tax records via Business ID (Y-tunnus), handling a 61.2% match rate for OY and 93.9% for OYJ across a 5-year balanced panel.
-- **Encoding and format issues:** Finnish-language data sources using Latin-1 encoding, Finnish decimal comma format, and mixed-language field names.[Key terminology](#Appendix:-Finnish–English-Terminology) index is attached in this README document.
+- **Encoding and format issues:** Finnish-language data sources using Latin-1 encoding, Finnish decimal comma format, and mixed-language field names.[Key terminology](#Appendix: Finnish–English Terminology) index is attached in this README document.
 - **API endpoint discovery:** Identifying undocumented API structures through browser DevTools inspection for additional data sources.
 
 ## Tools

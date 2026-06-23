@@ -1,0 +1,14 @@
+notice_type_code,finnish_name,english_name,description
+TA,Tilinpäätös,Financial statement / annual accounts,Annual financial statement filing registered at PRH
+M,Muutosilmoitus,Change notification,Notification of changes to company details (board members / address / articles of association etc.)
+U,Perustamisilmoitus,Establishment notice,Initial company registration at the trade register
+JH,Julkinen haaste,Public creditor summons,Public announcement inviting creditors to submit claims — typically signals financial distress or dissolution process
+FUU,Sulautumishakemus,Merger application,Application to register a merger between companies
+END,Lopettamisilmoitus,Dissolution notice,Notification that a company has been dissolved or deregistered
+Y,Tilinpäätös yhteisö,Financial statement community,Financial statement filing for cooperatives and other community entities
+H,Hakemus,Application,General application to the trade register
+VR,Viran puolesta,Ex officio registration,Registration action initiated by PRH without company application
+R,Rekisteröinti,Registration,General registration entry
+J,Julkistamisilmoitus,Publication notice,Public disclosure notice
+MH,Muutoshakemus,Change application,Legacy code — application for registered changes
+UH,Perustamishakemus,Establishment application,Legacy code — application for initial registration

@@ -33,8 +33,7 @@
 *   ssc install reghdfe
 *   ssc install ftools
 *
-* Author: [Your name]
-* Date:   May 2026
+* 
 * =============================================================================
 
 clear all

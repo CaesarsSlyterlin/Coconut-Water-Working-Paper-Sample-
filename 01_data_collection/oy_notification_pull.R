@@ -29,7 +29,7 @@
 #     tracking and fault isolation.
 #   - Checkpoint/resume: on restart, the script detects completed batch
 #     files and skips them. No data is re-downloaded.
-#   - 0.5-second delay between API calls to avoid overloading the public
+#   - 0.5s delay between API calls to avoid overloading the public
 #     endpoint (approximately 10 minutes per batch of 1,000).
 #   - 60-second timeout per request with tryCatch error handling.
 #     Failed requests are counted but do not halt the batch.
@@ -37,17 +37,12 @@
 #     elapsed time and ETA displayed in console.
 #
 # Runtime:
-#   Approximately 29 hours on a consumer laptop (MacBook, home broadband).
-#   Use `caffeinate -i Rscript oy_notification_pull.R` on macOS to
-#   prevent sleep during overnight runs.
+#   Approximately 29 hours.
 #
 # Post-processing:
 #   After all 170 batches complete, run the companion retry script to
-#   re-pull any companies that failed due to transient server errors,
+#   re-pull any companies that failed/missing due to transient server errors,
 #   then merge all CSVs into a single dataset.
-#
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(httr)

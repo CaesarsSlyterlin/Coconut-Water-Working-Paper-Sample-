@@ -33,8 +33,6 @@
 #   is used. The full panel is constructed in Stata via cross-merge of
 #   firm list and month sequence.
 #
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(tidyverse)

@@ -14,18 +14,12 @@
 #   Free, public, no authentication required.
 #   API base: http://vero2.stat.fi/PXWeb/api/v1/en/Vero/
 #
-# Why this script exists:
+# Note:
 #   Firm-level monthly VAT filing data is not publicly available in Finland
 #   (the Vero transactional API requires a certificate and API key reserved
-#   for institutional users). This script retrieves aggregate-level tax
+#   for institutional users for develping using). This script retrieves aggregate-level tax
 #   statistics as an alternative, providing macro-level evidence of fiscal
 #   shock transmission that complements the firm-level PRH notification data.
-#
-# Key constraint:
-#   In PxWeb, OY (private limited companies) and OYJ (public limited companies)
-#   are merged under "Osakeyhtiö" (code 03: Limited-liability company) and
-#   cannot be separated. Firm-level separation is achieved through the Vero
-#   Open Data CSV matched with PRH registration data (see 02_data_cleaning/).
 #
 # Output:
 #   Multiple CSV files for different data dimensions (see individual sections).

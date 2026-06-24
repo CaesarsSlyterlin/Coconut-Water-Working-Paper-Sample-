@@ -45,7 +45,7 @@ Preliminary descriptive statistics and sample regression tests based on PRH noti
     
  ### Results,Findings and Limitations
 
-   - The **VAT shock** led to an **additional 5.75.7 percentage point decline"** in the monthly TA filing probability for OYJ relative to OY, which is **equivalent to a 43% reduction** from the **baseline level of 0.133**.
+   - The **VAT shock** led to an **additional 5.7 percentage point decline"** in the monthly TA filing probability for OYJ relative to OY, which is **equivalent to a 43% reduction** from the **baseline level of 0.133**.
    - The **coefficients from Pooled OLS and TWFE are completely identical**, the two-way fixed effects do not alter the estimates and that the identifying variation is clean.
    - **Limitations.** TA filings exhibit **strong seasonality** (with **peaks in May and October** tied to the Finnish fiscal year deadline), which distorts the visualization of parallel trends in the event study; even **quarterly aggregation** does not fully resolve this issue.
    - This sample analysis confirms that **TA, as the dependent variable**, yields **strong and robust results under the baseline DiD framework**. However, addressing **parallel trends** in the event study, controlling for seasonality, and integrating other data layers are deferred to the subsequent working paper and fall outside the scope of this sample analysis.

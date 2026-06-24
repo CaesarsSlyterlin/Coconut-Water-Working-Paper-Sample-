@@ -41,9 +41,7 @@
 #
 # Dependencies:
 #   install.packages("pxweb")
-#
-# Author: [Your name]
-# Date:   May 2026
+
 # =============================================================================
 
 library(pxweb)

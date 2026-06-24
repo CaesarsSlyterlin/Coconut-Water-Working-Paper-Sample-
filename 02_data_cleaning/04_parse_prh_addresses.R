@@ -31,8 +31,6 @@
 #   oyj_clean <- parse_prh_companies(oyj_raw)
 #   write_csv(oyj_clean, "prh_oyj_clean.csv")
 #
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(tidyverse)

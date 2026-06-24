@@ -33,8 +33,6 @@
 #     matching the industries represented in the OYJ treatment group.
 #   - 0.5-second delay between pages to respect the public endpoint.
 #
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(httr)

@@ -4,7 +4,7 @@ Small sample datasets and summary statistics for demonstration purposes.
  
 **Note:** Full datasets are not included in this repository due to file size. The complete PRH notification dataset contains over 3.5 million records across 169,000+ firms. Sample data is provided so that scripts can be reviewed in context.
  
-## Contents (to be added)
+## Contents 
  
 - Sample summary statistics from PRH notification data
 - Sample summary statistics from Vero corporate income tax panel

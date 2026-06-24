@@ -35,9 +35,7 @@ library(tidyverse)
 # =============================================================================
 # PART 1: Explore the PxWeb directory structure
 # =============================================================================
-# The PxWeb API is hierarchical. We start at the top level and drill down
-# to identify which tables contain data relevant to the research.
-
+# The PxWeb API is hierarchical. 
 # --- Top level: all available categories ---
 px_top <- pxweb_get("http://vero2.stat.fi/PXWeb/api/v1/en/Vero/")
 print(px_top)

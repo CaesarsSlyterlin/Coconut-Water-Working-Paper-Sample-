@@ -33,8 +33,6 @@
 #   vero_panel_matched.csv — 5-year balanced panel with firm_type labels
 #   Match rates: OYJ 93.9%, OY 61.2%
 #
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(tidyverse)

@@ -17,9 +17,7 @@
 #
 # Runtime:
 #   Typically under 2 minutes for ~77 failed companies.
-#
-# Author: [Your name]
-# Date:   May 2026
+
 # =============================================================================
 
 library(httr)

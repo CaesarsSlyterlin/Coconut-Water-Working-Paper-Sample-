@@ -4,7 +4,7 @@
 
 This repository provides sample codes and sample datasets from my ongoing working paper *"Who Takes My Coconut Water from the Fridge: A Discussion of Firm's Disclosure and  Responses in Finland"*,shortly called *"Coconut Water Working Paper"*.
 
-The paper investigates how Finnish firms' disclosure behaviour responds to the VAT rate increase from 24% to 25.5%, effective 1 September 2024, using a difference-in-differences framework. The identification exploits institutional heterogeneity between public limited companies (Julkinen osakeyhtiö, OYJ) and private limited companies (Osakeyhtiö, OY) in their statutory disclosure obligations.The working paper is inspired by my shopping experience about coconut water at an Asian market in summer 2024 in Finland.
+The paper investigates how Finnish firms' disclosure behaviour responds to the VAT rate increase from 24% to 25.5%, effective 1 September 2024, using a difference-in-differences framework. The identification exploits institutional heterogeneity between public limited companies (Julkinen osakeyhtiö, OYJ) and private limited companies (Osakeyhtiö, OY) in their statutory disclosure obligations.The working paper was inspired by my shopping experience about coconut water at an Asian market in summer 2024 in Finland.
 
 **Note:** This repo provides sample code and preliminary analysis only. It does not represent the final results or complete specification of the working paper.
 

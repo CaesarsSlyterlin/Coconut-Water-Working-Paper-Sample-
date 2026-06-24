@@ -19,8 +19,6 @@
 #     business_id, notice_type, registration_date, ym (year-month),
 #     firm_type (OYJ/OY/OSK), phase (pre/post)
 #
-# Author: [Your name]
-# Date:   May 2026
 # =============================================================================
 
 library(tidyverse)

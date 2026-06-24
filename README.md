@@ -128,7 +128,7 @@ Source: Finnish Trade Register (PRH)
 ## Author 
 Wenfei Cai
 
-## Realted 
+## Related 
 - The working paper preprint version is available on SSRN with priavte access. Please contact me by request.
 -The paper's identification strategy draws on Bischof, Daske, Elfers & Hail (2022, *Contemporary Accounting Research*,)and the voluntary disclosure literature (Verrecchia 1983; Wagenhofer 1990).
 

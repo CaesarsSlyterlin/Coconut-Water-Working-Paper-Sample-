@@ -4,7 +4,7 @@ Preliminary descriptive statistics and sample regression tests based on PRH noti
  
 **Note:** These are sample analyses demonstrating methodology and data pipeline. They do not represent the final results or complete specification of the working paper. The full research design involves multiple data layers and a more comprehensive identification strategy.
  
-## Contents (to be added)
+## Contents 
  
 - Descriptive statistics: pre/post comparison of notification counts by company type (OYJ, OY, OSK) and notification type (TA, M, JH, FUU, etc.)
 - Sample DiD specification using firm-month notification panel
@@ -16,7 +16,7 @@ Preliminary descriptive statistics and sample regression tests based on PRH noti
 - Sample DiD on monthly notification count: β = −0.091, t = −4.34 (p < 0.001).
 ## Scripts 
  
-- **sample_did_analysis.do** Run baseline difference-in-differences regressions on the firm-month notification panel, using financial statement filings (TA) as the dependent variable. Data imported from 02_data_cleaning/03_build_firm_month_panel.R. 
+- **sample_did_analysis.do.** Run baseline difference-in-differences regressions on the firm-month notification panel, using financial statement filings (TA) as the dependent variable. Data imported from 02_data_cleaning/03_build_firm_month_panel.R. 
  
 ## Models, Results and Main Findings
 

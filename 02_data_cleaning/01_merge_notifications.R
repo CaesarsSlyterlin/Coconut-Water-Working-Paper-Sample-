@@ -126,7 +126,7 @@ all_notices %>% count(firm_type, phase) %>% print()
 #   END = Lopettamisilmoitus (Dissolution notice)
 #   Y   = Tilinpäätös, yhteisö (Financial statement, community)
 #   H   = Hakemus (Application)
-#   VR  = Viran puolesta (Ex officio registration)
+#   VA  = Valvonta-asia (Supervision matters/under supervision)
 #   R   = Rekisteröinti (Registration)
 #   J   = Julkistamisilmoitus (Publication notice)
 

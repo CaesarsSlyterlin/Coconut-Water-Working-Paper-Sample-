@@ -6,7 +6,7 @@ This repository provides sample codes and sample datasets from my ongoing workin
 
 The paper investigates how Finnish firms' disclosure behaviour responds to the VAT rate increase from 24% to 25.5%, effective 1 September 2024, using a difference-in-differences framework. The identification exploits institutional heterogeneity between public limited companies (Julkinen osakeyhtiö, OYJ) and private limited companies (Osakeyhtiö, OY) in their statutory disclosure obligations.The working paper was inspired by my shopping experience about coconut water at an Asian market in summer 2024 in Finland.
 
-**Note:** This repo provides sample code and preliminary analysis only. It does not represent the final results or complete specification of the working paper. 03_sample_analysis provides the sample empircal results and regrssion analysis from an early stage research design test in A[ril 2026, it doesen't indicate any complete results in this paper.
+**Note:** This repo provides sample code and preliminary analysis only. It does not represent the final results or complete specification of the working paper. 03_sample_analysis provides the sample empircal results and regrssion analysis from an early stage research design test in April 2026, it doesen't indicate any complete results in this paper.
 
 ## Research Design
 

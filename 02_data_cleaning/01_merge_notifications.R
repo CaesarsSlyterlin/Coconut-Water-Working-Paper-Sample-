@@ -120,7 +120,7 @@ all_notices %>% count(firm_type, phase) %>% print()
 # PRH notice type codes:
 #   TA  = Tilinpäätös (Financial statement / annual accounts)
 #   M   = Muutosilmoitus (Amendment notification)
-#   U   = Perustamisilmoitus (Establishment notice)
+#   U   = Perustamisilmoitus (Satrt-up notice)
 #   JH  = Julkinen haaste (Public creditor summons / creditor announcement)
 #   FUU = Sulautumishakemus (Merger application)
 #   END = Lopettamisilmoitus (Dissolution notice)

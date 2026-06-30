@@ -129,7 +129,7 @@ Source: Finnish Trade Register (PRH)
 Wenfei Cai
 
 ## Related 
-- The working paper preprint version is available on SSRN with priavte access. Please contact me by request.
+- The working paper preprint version is available on SSRN with private access. Please contact me by request.
 -The paper's identification strategy draws on Bischof, Daske, Elfers & Hail (2022, *Contemporary Accounting Research*,)and the voluntary disclosure literature (Verrecchia 1983; Wagenhofer 1990).
 
 ## Main References Included in this Repo and Working Paper

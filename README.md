@@ -134,7 +134,7 @@ Wenfei Cai
 
 ## Main References Included in this Repo and Working Paper
 
-Bischof, J., Daske, H., Elfers, F., & Hail, L. (2022). A Tale of Two Supervisors: Compliance with Risk Disclosure Regulation in the Banking Sector. *Contemporary Accounting Research*, *39*(1), 498–536. https://doi.org/10.1111/1911-3846.12715) 
+Bischof, J., Daske, H., Elfers, F., & Hail, L. (2022). A Tale of Two Supervisors: Compliance with Risk Disclosure Regulation in the Banking Sector. *Contemporary Accounting Research*, *39*(1), 498–536. https://doi.org/10.1111/1911-3846.12715 
 
 Verrecchia, R. E. (1983). Discretionary disclosure. *Journal of Accounting and Economics*, *5*, 179–194. https://doi.org/10.1016/0165-4101(83)90011-3
 

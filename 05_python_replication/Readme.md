@@ -22,5 +22,6 @@ plot_municipality_map(firms)
 dtype=str keeps the zero-padded three-digit municipality codes intact. **Boundaries are fetched directly from Statistics Finland's open WFS (layer tilastointialueet:kunta4500k)**. The example output below shows the geographic concentration of active Finnish public limited companies: most are registered in the Helsinki capital region.
 
 **fetching municipality boundaries (tilastointialueet:kunta4500k) from geo.stat.fi**
+
 <img width="564" height="820" alt="image" src="https://github.com/user-attachments/assets/dffb961d-373f-4e4a-9b6f-e48b1bc9292d" />
 

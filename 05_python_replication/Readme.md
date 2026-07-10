@@ -10,12 +10,17 @@ Python 3.10+, requests, pandas. Optional for the municipality map: geopandas, ma
 
 ## Drawing the municipality map (optional)
 The map step is skipped by default so the core pipeline runs without GIS dependencies. To draw it after a demo run (e.g. on Google Colab), install geopandas and matplotlib, then run in a notebook cell:
+
+```python
 from prh_pipeline import plot_municipality_map
 import pandas as pd
+
 firms = pd.read_csv("output/prh_oyj_clean.csv", dtype=str)
 plot_municipality_map(firms)
-dtype=str keeps the zero-padded three-digit municipality codes intact. Boundaries are fetched directly from Statistics Finland's open WFS (layer tilastointialueet:kunta4500k). The example output below shows the geographic concentration of active Finnish public limited companies: most are registered in the Helsinki capital region.
+```
 
-***fetching municipality boundaries (tilastointialueet:kunta4500k) from geo.stat.fi*** 
+dtype=str keeps the zero-padded three-digit municipality codes intact. **Boundaries are fetched directly from Statistics Finland's open WFS (layer tilastointialueet:kunta4500k)**. The example output below shows the geographic concentration of active Finnish public limited companies: most are registered in the Helsinki capital region.
+
+**fetching municipality boundaries (tilastointialueet:kunta4500k) from geo.stat.fi**
 <img width="564" height="820" alt="image" src="https://github.com/user-attachments/assets/dffb961d-373f-4e4a-9b6f-e48b1bc9292d" />
 

@@ -39,7 +39,8 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
 ├── 01_data_collection/       # Scripts for retrieving data from PRH API, Vero Open Data, and Vero PxWeb
 ├── 02_data_cleaning/         # Cleaning, encoding fixes, cross-matching PRH ↔ Vero via Business ID
 ├── 03_sample_analysis/       # Preliminary descriptive statistics and sample DiD tests
-├── 04.data_samples/             # Small sample datasets and summary statistics (no full datasets)
+├── 04.data_samples/          # Small sample datasets and summary statistics (no full datasets)
+├── 05_python_replication/    # Python replication of the R pipeline (pandas / requests)
 └── README.md
 ```
 
@@ -54,6 +55,7 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
  
 - **R** (httr, jsonlite, tidyverse, pxweb) for API access, data cleaning, and panel construction
 - **Stata 17 MP** for regression analysis
+- **Python (requests, pandas)** a self-contained replication of the R data pipeline is provided in 05_python_replication/, runnable in demo mode on Google Colab 
 
 ## Preliminary Findings (Sample Analysis)
  

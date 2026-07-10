@@ -40,9 +40,10 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
 ├── 02_data_cleaning/         # Cleaning, encoding fixes, cross-matching PRH ↔ Vero via Business ID
 ├── 03_sample_analysis/       # Preliminary descriptive statistics and sample DiD tests
 ├── 04.data_samples/          # Small sample datasets and summary statistics (no full datasets)
-├── 05_python_replication/    # Python replication of the R pipeline (pandas / requests)
+├── 05_python_replication/    # Python replication of the R pipeline (pandas / requests), visualized geodata test of Finland municipality map
 └── README.md
 ```
+**Note:** **05_python_replication README.md** contains **sample visualization geodata of Finland municipality map**
 
 ## Key Technical Challenges 
  
@@ -50,6 +51,7 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
 - **Cross-database matching:** Linking PRH company registration data to Vero corporate tax records via Business ID (Y-tunnus), handling a 61.2% match rate for OY and 93.9% for OYJ across a 5-year balanced panel.
 - **Encoding and format issues:** Finnish-language data sources using Latin-1 encoding, Finnish decimal comma format, and mixed-language field names.[Key terminology index](#appendix-finnishenglish-terminology) is attached in this README document.
 - **API endpoint discovery:** Identifying undocumented API structures through scrappy tools for additional data sources.
+- **GIS dependencies:** dtype=str keeps the zero-padded three-digit municipality codes intact to avoid pandas read as integers.
 
 ## Tools
  

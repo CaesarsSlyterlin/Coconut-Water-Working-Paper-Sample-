@@ -43,7 +43,7 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
 ├── 05_python_replication/    # Python replication of the R pipeline (pandas / requests), visualized geodata test of Finland municipality map
 └── README.md
 ```
-**Note:** **05_python_replication README.md** contains **sample visualization geodata of Finland municipality map**
+**Note:** Under ***05_python_replication README.md*** contains **sample visualization geodata of Finland municipality map**
 
 ## Key Technical Challenges 
  

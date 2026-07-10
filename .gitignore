@@ -1,0 +1,5 @@
+# Output directory
+output/
+
+# Checkpoint files
+*.checkpoint

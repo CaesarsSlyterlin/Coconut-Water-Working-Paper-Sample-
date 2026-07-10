@@ -57,7 +57,7 @@ The research design builds on a multi-layer conceptual framework of fiscal stres
  
 - **R** (httr, jsonlite, tidyverse, pxweb) for API access, data cleaning, and panel construction
 - **Stata 17 MP** for regression analysis
-- **Python (requests, pandas)** a self-contained replication of the R data pipeline is provided in 05_python_replication/, runnable in demo mode on Google Colab 
+- **Python (requests, pandas)** a self-contained replication of the R data pipeline is provided in ***05_python_replication/***, runnable in demo mode on Google Colab 
 
 ## Preliminary Findings (Sample Analysis)
  

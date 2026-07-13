@@ -8,7 +8,7 @@ Two implementation notes came out of empirical verification against the live API
 ## Requirements
 Python 3.10+, requests, pandas. Optional for the municipality map: geopandas, matplotlib, and a municipality boundary file from Statistics Finland open geodata.
 
-## Drawing the municipality map (optional)
+## Drawing the municipality map 
 The map step is skipped by default so the core pipeline runs without GIS dependencies. To draw it after a demo run (e.g. on Google Colab), install geopandas and matplotlib, then run in a notebook cell:
 
 ```python

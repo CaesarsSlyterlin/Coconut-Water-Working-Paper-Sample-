@@ -41,7 +41,7 @@ What is here, and why each was added:
 
 Dependencies beyond the original pipeline: pyfixest.
 
-Author: [Author Name]
+
 Last updated: August 2026
 """
 

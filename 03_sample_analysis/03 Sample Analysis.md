@@ -9,16 +9,38 @@ Preliminary descriptive statistics and sample regression tests based on PRH noti
 - Descriptive statistics: pre/post comparison of notification counts by company type (OYJ, OY, OSK) and notification type (TA, M, JH, FUU, etc.)
 - Sample DiD specification using firm-month notification panel
 - Event window visualisation
+  
 ## Preliminary Findings from Sample Tests
  
 - OYJ financial statement (TA) filings: approximately −49% in post-treatment period.
 - OY creditor announcements (JH): +352%, consistent with rising financial distress among small firms.
 - Sample DiD on monthly notification count: β = −0.091, t = −4.34 (p < 0.001).
+--- 
+## PRH notification type  
+| code | meaning in English | group |
+|---|---|---|
+| TA | Financial statements | **mandatory disclosure** |
+| M | Amendment notification | routine |
+| U | Start-up notification | routine |
+| OI | Rectification | routine |
+| JH | Public summons to creditors | **stress** |
+| FUU | MergerApplication | **stress** |
+| DIF | DemergerApplication | **stress** |
+| END | dissolution | **stress** |
+| H | Application | other |
+| T | Notice | other |
+| VA | Supervision | other |
+| KM | Municipal change notification | other |
+| TASE | liability statements/balancing sheets | other |
+ 
+ Acquired by PRH API `/description?code=NRT` endpoint on 24May 2026
+---
 ## Scripts 
  
-- **sample_did_analysis.do.** Run baseline difference-in-differences regressions on the firm-month notification panel, using financial statement filings (TA) as the dependent variable. Data imported from 02_data_cleaning/03_build_firm_month_panel.R. 
+- **sample_did_analysis.do.** Run baseline difference-in-differences regressions on the firm-month notification panel, using financial statement filings (TA) as the dependent variable. Data imported from 02_data_cleaning/03_build_firm_month_panel.R.
+- **DiD analysis.R.** Full pipeline DiD estimation results, including main specifications.
  
-## Models, Results and Main Findings
+## Models, Results and Main Findings in sample anyalsis.do
 
 - **Panel dimensions.** 5,957,856 observations (165,496 firms x 36 months)
   - OYJ: 304 firms x 36 = 10,944 obs (treatment)

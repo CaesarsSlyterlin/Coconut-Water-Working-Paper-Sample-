@@ -169,7 +169,7 @@ The modules are independent. A typical sequence:
  
 ```python
 import pandas as pd
-import coconut_new_modules as cnm
+import main empirical and specification as cnm
  
 # 1. retrieve full notice histories
 cnm.fetch_full_history(
